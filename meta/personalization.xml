@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <type-extension type-id="SitePreferences">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="categoryIds">
+                <display-name xml:lang="x-default">Category Ids</display-name>
+                <description xml:lang="x-default">Category Ids</description>
+                <type>set-of-string</type>
+                <mandatory-flag>true</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>          
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="Personalization">
+                <display-name xml:lang="x-default">Personalization</display-name>
+                <attribute attribute-id="categoryIds"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+</metadata>
